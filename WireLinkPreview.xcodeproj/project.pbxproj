@@ -148,7 +148,6 @@
 		BF3DD26F1D25445600D51DED /* version.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = version.xcconfig; sourceTree = "<group>"; };
 		BF3DD2721D25445600D51DED /* ios-test-host.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "ios-test-host.xcconfig"; sourceTree = "<group>"; };
 		BF3DD2731D25445600D51DED /* ios-test-target.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "ios-test-target.xcconfig"; sourceTree = "<group>"; };
-		BF3DD2741D25445600D51DED /* ios.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ios.xcconfig; sourceTree = "<group>"; };
 		BF3DD2771D25445600D51DED /* project-common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "project-common.xcconfig"; sourceTree = "<group>"; };
 		BF3DD2781D25445600D51DED /* project-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "project-debug.xcconfig"; sourceTree = "<group>"; };
 		BF3DD2791D25445600D51DED /* project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
@@ -263,9 +262,9 @@
 		BF3DD2701D25445600D51DED /* zmc-config */ = {
 			isa = PBXGroup;
 			children = (
+				A9E6BE83269750D700E410ED /* ios.xcconfig */,
 				BF3DD2721D25445600D51DED /* ios-test-host.xcconfig */,
 				BF3DD2731D25445600D51DED /* ios-test-target.xcconfig */,
-				BF3DD2741D25445600D51DED /* ios.xcconfig */,
 				BF3DD2771D25445600D51DED /* project-common.xcconfig */,
 				BF3DD2781D25445600D51DED /* project-debug.xcconfig */,
 				BF3DD2791D25445600D51DED /* project.xcconfig */,
