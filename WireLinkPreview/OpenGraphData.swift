@@ -94,7 +94,7 @@ extension OpenGraphData {
 
 extension OpenGraphData: Equatable {}
 
-public func ==(lhs: OpenGraphData, rhs: OpenGraphData) -> Bool {
+public func == (lhs: OpenGraphData, rhs: OpenGraphData) -> Bool {
     return lhs.title == rhs.title && lhs.type == rhs.type &&
         lhs.url == rhs.url && lhs.imageUrls == rhs.imageUrls &&
         lhs.siteName == rhs.siteName && lhs.content == rhs.content &&
@@ -104,7 +104,7 @@ public func ==(lhs: OpenGraphData, rhs: OpenGraphData) -> Bool {
 
 extension FoursquareMetaData: Equatable {}
 
-public func ==(lhs: FoursquareMetaData, rhs: FoursquareMetaData) -> Bool {
+public func == (lhs: FoursquareMetaData, rhs: FoursquareMetaData) -> Bool {
     return lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
 }
 
