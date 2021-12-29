@@ -146,8 +146,8 @@ final class IntegrationTests: XCTestCase {
     }
 
     private func assertThatItCanParseSampleData(_ mockData: OpenGraphMockData,
-                                        expected: OpenGraphDataExpectation?,
-                                        line: UInt = #line) {
+                                                expected: OpenGraphDataExpectation?,
+                                                line: UInt = #line) {
 
         // given
         let completionExpectation = expectation(description: "It should parse the data")
