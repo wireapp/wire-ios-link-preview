@@ -30,7 +30,7 @@ class OpenGraphDataTests: XCTestCase {
         let images = ["www.example.com/image"]
 
         // when
-        guard let sut = OpenGraphData(propertyMapping: mapping, resolvedURL: URL(string: url)!, images: images) else { return XCTFail() }
+        guard let sut = OpenGraphData(propertyMapping: mapping, resolvedURL: URL(string: url)!, images: images) else { return XCTFail("SUT is nil") }
 
         // then
         XCTAssertEqual(sut.title, title)
