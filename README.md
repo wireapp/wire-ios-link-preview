@@ -16,6 +16,8 @@ This framework is part of Wire iOS. Additional documentation is available in the
 
 WireLinkPreview is a Swift framework that can be used to fetch and parse Open Graph data that is present on most webpages (see http://ogp.me/ for more information and https://developers.facebook.com/tools/debug/sharing to debug open graph data).
 
+⚠️ **This repository is now part of [wire-ios-mono](https://github.com/wireapp/wire-ios-mono)**
+
 ### How to build
 
 This framework is using Carthage to manage its dependencies. To pull the dependencies binaries, `run carthage bootstrap --platform ios`.
